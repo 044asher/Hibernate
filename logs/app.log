@@ -1,0 +1,81 @@
+16-02-2024 18:02:53.856 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.3.Final
+16-02-2024 18:02:54.058 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+16-02-2024 18:02:54.171 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+16-02-2024 18:02:54.177 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+16-02-2024 18:02:54.178 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/shop]
+16-02-2024 18:02:54.178 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+16-02-2024 18:02:54.178 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+16-02-2024 18:02:54.180 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+16-02-2024 18:02:55.395 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+16-02-2024 18:02:55.413 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5e3d2765] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+16-02-2024 18:02:55.535 [main] INFO  org.example.User.UserDaoImpl - User created successfully: Users{user_id=305, user_name='hibernate', surname='Testing', email='sdfsd@gmail.com', age=55}
+16-02-2024 18:02:55.807 [main] INFO  org.example.User.UserDaoImpl - User updated successfully: Users{user_id=305, user_name='hibernate', surname='Testing', email='mr. Changed', age=55}
+16-02-2024 18:02:55.819 [main] INFO  org.example.User.UserDaoImpl - User deleted successfully: Users{user_id=305, user_name='hibernate', surname='Testing', email='mr. Changed', age=55}
+16-02-2024 18:02:55.826 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details created successfully: userDetails{details_id = 66, user_id ='5', address ='address 11/1', phone_number ='+345325532532}
+16-02-2024 18:02:55.843 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details updated successfully: userDetails{details_id = 66, user_id ='5', address ='Changed 1/12', phone_number ='+345325532532}
+16-02-2024 18:02:55.847 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details deleted successfully: userDetails{details_id = 66, user_id ='5', address ='Changed 1/12', phone_number ='+345325532532}
+16-02-2024 18:02:55.852 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate created successfully
+16-02-2024 18:02:55.862 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate updated successfully
+16-02-2024 18:02:55.862 [main] INFO  org.example.Product.ProductDaoImpl - Getting product by id 58
+16-02-2024 18:02:55.866 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate deleted successfully
+16-02-2024 18:02:55.868 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+16-02-2024 18:02:55.930 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+16-02-2024 18:02:55.935 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+17-02-2024 11:36:10.643 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.3.Final
+17-02-2024 11:36:10.914 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17-02-2024 11:36:11.055 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+17-02-2024 11:36:11.064 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+17-02-2024 11:36:11.064 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/shop]
+17-02-2024 11:36:11.064 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+17-02-2024 11:36:11.065 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+17-02-2024 11:36:11.067 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+17-02-2024 11:36:12.947 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17-02-2024 11:36:12.973 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ea75b05] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+17-02-2024 11:36:13.156 [main] INFO  org.example.User.UserDaoImpl - User created successfully: Users{user_id=306, user_name='hibernate', surname='Testing', email='sdfsd@gmail.com', age=55}
+17-02-2024 11:36:13.539 [main] INFO  org.example.User.UserDaoImpl - User updated successfully: Users{user_id=306, user_name='hibernate', surname='Testing', email='mr. Changed', age=55}
+17-02-2024 11:36:13.552 [main] INFO  org.example.User.UserDaoImpl - User deleted successfully: Users{user_id=306, user_name='hibernate', surname='Testing', email='mr. Changed', age=55}
+17-02-2024 11:36:13.564 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details created successfully: userDetails{details_id = 67, user_id ='5', address ='address 11/1', phone_number ='+345325532532}
+17-02-2024 11:36:13.586 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details updated successfully: userDetails{details_id = 67, user_id ='5', address ='Changed 1/12', phone_number ='+345325532532}
+17-02-2024 11:36:13.593 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details deleted successfully: userDetails{details_id = 67, user_id ='5', address ='Changed 1/12', phone_number ='+345325532532}
+17-02-2024 11:36:13.599 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate created successfully
+17-02-2024 11:36:13.613 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate updated successfully
+17-02-2024 11:36:13.613 [main] INFO  org.example.Product.ProductDaoImpl - Getting product by id 59
+17-02-2024 11:36:13.620 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate deleted successfully
+17-02-2024 11:36:13.624 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+17-02-2024 11:36:13.711 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+17-02-2024 11:36:13.716 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+17-02-2024 11:36:13.764 [main] INFO  org.example.OrderService - Placing order for user Катя
+17-02-2024 11:36:13.765 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Катя's shopping cart
+17-02-2024 11:36:13.784 [main] INFO  org.example.Order.OrderDaoImpl - Order created successfully: Orders {order_id: 30, user_id: 241, product_names: Сигареты "Marlboro Gold", Пиво "Bud", total_amount: 135.55}
+17-02-2024 11:36:13.785 [main] INFO  org.example.OrderService - Order saved successfully
+17-02-2024 11:36:13.785 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Removing all products from Катя's shopping cart
+17-02-2024 11:36:13.795 [main] INFO  org.example.OrderService - All products removed from shopping cart
+17-02-2024 14:50:20.096 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.3.Final
+17-02-2024 14:50:20.342 [main] INFO  org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17-02-2024 14:50:20.493 [main] WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using built-in connection pool (not intended for production use)
+17-02-2024 14:50:20.497 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001005: Loaded JDBC driver class: com.mysql.cj.jdbc.Driver
+17-02-2024 14:50:20.497 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001012: Connecting with JDBC URL [jdbc:mysql://localhost:3306/shop]
+17-02-2024 14:50:20.497 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {password=****, user=root}
+17-02-2024 14:50:20.497 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+17-02-2024 14:50:20.499 [main] INFO  org.hibernate.orm.connections.pooling - HHH10001115: Connection pool size: 20 (min=1)
+17-02-2024 14:50:22.233 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17-02-2024 14:50:22.256 [main] INFO  org.hibernate.orm.connections.access - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3ea75b05] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+17-02-2024 14:50:22.413 [main] INFO  org.example.User.UserDaoImpl - User created successfully: Users{user_id=307, user_name='hibernate', surname='Testing', email='sdfsd@gmail.com', age=55}
+17-02-2024 14:50:22.767 [main] INFO  org.example.User.UserDaoImpl - User updated successfully: Users{user_id=307, user_name='hibernate', surname='Testing', email='mr. Changed', age=55}
+17-02-2024 14:50:22.780 [main] INFO  org.example.User.UserDaoImpl - User deleted successfully: Users{user_id=307, user_name='hibernate', surname='Testing', email='mr. Changed', age=55}
+17-02-2024 14:50:22.789 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details created successfully: userDetails{details_id = 68, user_id ='5', address ='address 11/1', phone_number ='+345325532532}
+17-02-2024 14:50:22.807 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details updated successfully: userDetails{details_id = 68, user_id ='5', address ='Changed 1/12', phone_number ='+345325532532}
+17-02-2024 14:50:22.813 [main] INFO  org.example.UserDetails.UserDetailsImpl - User details deleted successfully: userDetails{details_id = 68, user_id ='5', address ='Changed 1/12', phone_number ='+345325532532}
+17-02-2024 14:50:22.819 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate created successfully
+17-02-2024 14:50:22.830 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate updated successfully
+17-02-2024 14:50:22.830 [main] INFO  org.example.Product.ProductDaoImpl - Getting product by id 60
+17-02-2024 14:50:22.835 [main] INFO  org.example.Product.ProductDaoImpl - Product Hibernate deleted successfully
+17-02-2024 14:50:22.838 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+17-02-2024 14:50:22.928 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+17-02-2024 14:50:22.935 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Коля's shopping cart
+17-02-2024 14:50:22.979 [main] INFO  org.example.OrderService - Placing order for user Катя
+17-02-2024 14:50:22.979 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Getting all products from Катя's shopping cart
+17-02-2024 14:50:23.000 [main] INFO  org.example.Order.OrderDaoImpl - Order created successfully: Orders {order_id: 31, user_id: 241, product_names: Сигареты "Marlboro Gold", Пиво "Bud", total_amount: 135.55}
+17-02-2024 14:50:23.001 [main] INFO  org.example.OrderService - Order saved successfully
+17-02-2024 14:50:23.001 [main] INFO  org.example.ShoppingCart.ShoppingCartDaoImpl - Removing all products from Катя's shopping cart
+17-02-2024 14:50:23.009 [main] INFO  org.example.OrderService - All products removed from shopping cart
